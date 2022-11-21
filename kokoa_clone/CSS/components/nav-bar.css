@@ -1,0 +1,30 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: var(--section__border);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+}
+
+.nav__notification {
+  position: absolute;
+  right: -10px;
+  top: -15px;
+}
+
+.nav__knock {
+  position: absolute;
+  right: -10px;
+  top: -15px;
+}
